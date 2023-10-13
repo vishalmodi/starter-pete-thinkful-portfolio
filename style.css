@@ -97,6 +97,10 @@ hr {
   text-align: right;
 }
 
+.flex-header-nav {
+  text-align: left;
+}
+
 
 /* About CSS classes */
 .about-text {
