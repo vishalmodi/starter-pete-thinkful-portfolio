@@ -77,30 +77,42 @@ hr {
   border: 1px solid black;
 }
 
+
+/* Header CSS classes */
 .container {
   display: flex;
   align-items: center;
-  vertical-align: center;
-  border: black 1px solid;
+  /* border: black 1px solid; */
+}
+
+.container-header {
+  justify-content: space-evenlyss;
 }
 
 .flex-header {
   flex: 1;
 }
 
+.flex-header-h1 {
+  text-align: right;
+}
+
+
+/* About CSS classes */
 .about-text {
   text-align: left;
 }
 
+/* Portfolio CSS classes*/
 .portfolio-container {
   display: flex;
 }
 
 .portfolio-item {
   flex: 1;
-  margin: 5px;
+  margin: 10px;
   align-items: center;
-  border: #d62828 1px solid;
+  /* border: #d62828 1px solid; */
 }
 
 .proj-desc {
