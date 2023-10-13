@@ -76,3 +76,33 @@ footer {
 hr {
   border: 1px solid black;
 }
+
+.container {
+  display: flex;
+  align-items: center;
+  vertical-align: center;
+  border: black 1px solid;
+}
+
+.flex-header {
+  flex: 1;
+}
+
+.about-text {
+  text-align: left;
+}
+
+.portfolio-container {
+  display: flex;
+}
+
+.portfolio-item {
+  flex: 1;
+  margin: 5px;
+  align-items: center;
+  border: #d62828 1px solid;
+}
+
+.proj-desc {
+  font-size: 14px;
+}
